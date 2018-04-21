@@ -1,0 +1,21 @@
+
+#box_1 {
+	position: static;
+	width: 15em;
+	height: 15em;
+	background: #841B59;
+}
+
+#box_2 {
+	position: static;
+	width: 15em;
+	height: 15em;
+	background: #C8097A;
+}
+
+#box_3 {
+	position: static;
+	width: 15em;
+	height: 15em;
+	background: #C28DAC;
+}
