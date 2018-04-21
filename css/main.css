@@ -1,19 +1,19 @@
-/*EXAMPLE G POSITION ABSOLUTE */
+/*EXAMPLE H POSITION ABSOLUTE */
 #box_1 {
-  background: #841B59;
-  bottom: 1em;
-  left: 1em;
-	position: absolute;
-  top:1em;
-  right: 1em;
+    position: absolute;
+    top: 0;
+    right: 20%;
+    bottom: 0;
+    left: 0;
+    background: #ED96B5;
 }
 
 #box_2 {
-  background: #C8097A;
-  bottom: 3em;
-  left: 3em;
-	position: absolute;
-  top: 3em;
-  right: 3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 80%;
+  background: #922A50;
 
 }
