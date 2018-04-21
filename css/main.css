@@ -1,22 +1,35 @@
-/*EXABLE D ANIDANDO CAJAS CAJA2 DENTRO DE CAJA 1*/
+/*EXAMPLE E POSITION ABSOLUTE */
 #box_1 {
   background: #841B59;
-  height: 15em;
-	position: relative;
-	width: 15em;
+  height: 10em;
+  left: 0;
+	position: absolute;
+  top:0;
+	width: 10em;
 }
 
 #box_2 {
   background: #C8097A;
-  height: 15em;
-  left : 15em;
-	position: relative;
-	width: 15em;
+  height: 10em;
+	position: absolute;
+  top: 0;
+  right: 0;
+	width: 10em;
 }
 
 #box_3 {
   background: #C28DAC;
-  height: 15em;
-	position: relative;
-	width: 15em;
+  bottom: 0;
+  height: 10em;
+  left: 0;
+	position: absolute;
+	width: 10em;
+}
+#box_4 {
+  background: #784A65;
+  bottom: 0;
+  height: 10em;
+	position: absolute;
+  right: 0;
+	width: 10em;
 }
