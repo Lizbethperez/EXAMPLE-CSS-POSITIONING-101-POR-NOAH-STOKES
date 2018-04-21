@@ -1,16 +1,21 @@
-/*EXAMPLE E POSITION ABSOLUTE */
+/*EXAMPLE F POSITION ABSOLUTE ELEMENTOS ANIDADOS  */
 #box_1 {
   background: #841B59;
+  box-sizing: border-box;
   height: 10em;
   left: 0;
 	position: absolute;
+  padding: 3.5em;
   top:0;
 	width: 10em;
+
 }
 
 #box_2 {
   background: #C8097A;
+  box-sizing: border-box;
   height: 10em;
+  padding: 3.5em;
 	position: absolute;
   top: 0;
   right: 0;
@@ -20,16 +25,27 @@
 #box_3 {
   background: #C28DAC;
   bottom: 0;
+  box-sizing: border-box;
   height: 10em;
   left: 0;
+  padding: 3.5em;
 	position: absolute;
 	width: 10em;
 }
 #box_4 {
   background: #784A65;
   bottom: 0;
+  box-sizing: border-box;
   height: 10em;
+  padding: 3.5em;
 	position: absolute;
   right: 0;
 	width: 10em;
 }
+ #box_1 div, #box_2 div, #box_3 div, #box_4 div {
+  background-color: #F9E0E9;
+  position:absolute;
+  width:2.5em;
+  height:2.5em;
+
+ }
