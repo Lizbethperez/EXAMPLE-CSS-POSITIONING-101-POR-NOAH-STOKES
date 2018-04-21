@@ -1,19 +1,16 @@
-/*EXAMPLE H POSITION ABSOLUTE */
+/*EXAMPLE H POSITION ABSOLUTE AND RELATIVE */
 #box_1 {
-    position: absolute;
-    top: 0;
-    right: 20%;
-    bottom: 0;
-    left: 0;
     background: #ED96B5;
+    height: 15em;
+    position: relative;
+    width: 15em;
+
 }
 
 #box_2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 80%;
   background: #922A50;
-
+  height: 15em;
+  left: 7.5em;
+  position: absolute;
+  width: 15em;
 }
