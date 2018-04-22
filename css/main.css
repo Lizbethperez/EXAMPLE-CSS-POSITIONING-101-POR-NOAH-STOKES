@@ -1,28 +1,53 @@
-/*EXAMPLE I UTILIZANDO FIXED */
-
-
- #box_1 p {
-  background: white;
-  color: #DE43C4;
-  font-family: verdana;
-  font-size: larger;
+/*EXAMPLE J UTILIZANDO FIXED */
+body{
+ background-color: #580B35;
+ margin: 0;
 }
 
-#box_1, #box_2 p {
-    margin:  auto;
-    width: 50em;
+ #content {
+   background-color: #D4A8C0;
+   position: relative;
+   padding: 1em 10em 1em 0.5em;
+
+}
+ #footer {
+   background-color:#C95C98;
+   bottom: 0;
+   position: fixed;
+   left: 13em;
+   padding-left: 10.5em;
+
+ }
+#navega  {
+  background-color: #C85B96;
+  padding: 0.5em;
+  position: absolute;
+  height: 2em;
+  right:  5em;
+  padding-right: 10em;
+
 }
 
-#box_2 {
-  background: #922A50;
-  bottom: 0;
-  left: 0;
-  padding: 1em 0;
-  position: fixed;
-  right: 0;
-}
+#content, #footer p, #navega {
+  position: relative;
+  width: 50em;
+  left: 13em;
 
-#box_2 p {
-  color: white;
-  font-family: verdana;
+}
+#side{
+  position: absolute;
+  top:5em;
+  right: -4em;
+  background-color: #8C5B76;
+  padding: 0.5em;
+  width: 10em;
+}
+#navega > a  {
+  padding:1em;
+  display: block;
+  float:left;
+  border-right: 2px solid black;
+  left:13em;
+  height: 2em;
+
 }
